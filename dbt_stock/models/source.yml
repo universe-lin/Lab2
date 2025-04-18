@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw
+    database: USER_DB_LEMUR
+    schema: raw
+    description: "Schema which stores raw tables (ETL)"
+    tables:
+      - name: stock_prices
+        identifier: stock_prices
+        description: "Raw stock prices data"
+  - name: analytics
+    database: USER_DB_LEMUR
+    schema: analytics
+    description: "Schema with stores analytics tables (ELT)"
+    tables:
+      - name: stock_analytics
+        identifier: stock_analytics
+        description: "Stock anlalytics info"
+

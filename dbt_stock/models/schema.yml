@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: clean_stock_prices
+    description: "Cleaned stock prices pulled from the raw layer"
+    columns:
+      - name: ticker
+        description: "Normalized stock ticker"
+        tests:
+          - not_null
+      - name: date
+        description: "Date of price quote"
+        tests:
+          - not_null
+      - name: open
+        description: "Opening price"
+      - name: close
+        description: "Closing price"
+      - name: high
+        description: "High price of the day"
+      - name: low
+        description: "Low price of the day"
+      - name: volume
+        description: "Number of shares traded"
+
+  - name: stock_analytics
+    description: "Technical indicator calculations (MA, RSI, Momentum) based on stock prices"
+    columns:
+      - name: ticker
+        description: "Stock symbol"
+        tests:
+          - not_null
+      - name: date
+        description: "Date of the metric"
+        tests:
+          - not_null
+      - name: close
+        description: "Closing price used for indicators"
+      - name: ma_7
+        description: "7-day moving average of close price"
+      - name: ma_14
+        description: "14-day moving average of close price"
+      - name: rsi
+        description: "Relative Strength Index"
+      - name: momentum
+        description: "Difference between current and previous close"

@@ -1,0 +1,49 @@
+[2025-03-20T01:42:14.149+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:42:14.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py for tasks to queue
+[2025-03-20T01:42:14.157+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:14.157+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:42:14.175+0000] {processor.py:925} INFO - DAG(s) 'Hw6_ETL_UserSessionsToSnowflake' retrieved from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:42:14.247+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:14.247+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:42:14.290+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:14.290+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw6_ETL_UserSessionsToSnowflake to 2025-03-19 02:30:00+00:00, run_after=2025-03-20 02:30:00+00:00
+[2025-03-20T01:42:14.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py took 0.179 seconds
+[2025-03-20T01:42:44.831+0000] {processor.py:186} INFO - Started process (PID=292) to work on /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:42:44.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py for tasks to queue
+[2025-03-20T01:42:44.835+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:44.834+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:42:44.850+0000] {processor.py:925} INFO - DAG(s) 'Hw6_ETL_UserSessionsToSnowflake' retrieved from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:42:44.875+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:44.874+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:42:44.894+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:44.894+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw6_ETL_UserSessionsToSnowflake to 2025-03-19 02:30:00+00:00, run_after=2025-03-20 02:30:00+00:00
+[2025-03-20T01:42:44.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py took 0.082 seconds
+[2025-03-20T01:43:15.911+0000] {processor.py:186} INFO - Started process (PID=328) to work on /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:43:15.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py for tasks to queue
+[2025-03-20T01:43:15.923+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:15.923+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:43:15.937+0000] {processor.py:925} INFO - DAG(s) 'Hw6_ETL_UserSessionsToSnowflake' retrieved from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:43:15.963+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:15.963+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:43:15.991+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:15.990+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw6_ETL_UserSessionsToSnowflake to 2025-03-19 02:30:00+00:00, run_after=2025-03-20 02:30:00+00:00
+[2025-03-20T01:43:16.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py took 0.108 seconds
+[2025-03-20T01:43:46.760+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:43:46.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py for tasks to queue
+[2025-03-20T01:43:46.767+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:46.766+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:43:46.794+0000] {processor.py:925} INFO - DAG(s) 'Hw6_ETL_UserSessionsToSnowflake' retrieved from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:43:46.819+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:46.818+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:43:46.834+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:46.834+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw6_ETL_UserSessionsToSnowflake to 2025-03-19 02:30:00+00:00, run_after=2025-03-20 02:30:00+00:00
+[2025-03-20T01:43:46.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py took 0.094 seconds
+[2025-03-20T01:44:17.772+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:44:17.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py for tasks to queue
+[2025-03-20T01:44:17.791+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:17.790+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:44:17.806+0000] {processor.py:925} INFO - DAG(s) 'Hw6_ETL_UserSessionsToSnowflake' retrieved from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:44:17.832+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:17.832+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:44:17.860+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:17.860+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw6_ETL_UserSessionsToSnowflake to 2025-03-19 02:30:00+00:00, run_after=2025-03-20 02:30:00+00:00
+[2025-03-20T01:44:17.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py took 0.106 seconds
+[2025-03-20T01:44:48.862+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:44:48.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py for tasks to queue
+[2025-03-20T01:44:48.869+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:48.868+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:44:48.886+0000] {processor.py:925} INFO - DAG(s) 'Hw6_ETL_UserSessionsToSnowflake' retrieved from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:44:48.919+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:48.919+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:44:48.937+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:48.937+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw6_ETL_UserSessionsToSnowflake to 2025-03-19 02:30:00+00:00, run_after=2025-03-20 02:30:00+00:00
+[2025-03-20T01:44:48.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py took 0.100 seconds
+[2025-03-20T01:45:19.834+0000] {processor.py:186} INFO - Started process (PID=481) to work on /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:45:19.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py for tasks to queue
+[2025-03-20T01:45:19.839+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:45:19.839+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:45:19.858+0000] {processor.py:925} INFO - DAG(s) 'Hw6_ETL_UserSessionsToSnowflake' retrieved from /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py
+[2025-03-20T01:45:19.883+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:45:19.883+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:45:19.910+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:45:19.910+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw6_ETL_UserSessionsToSnowflake to 2025-03-19 02:30:00+00:00, run_after=2025-03-20 02:30:00+00:00
+[2025-03-20T01:45:19.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hw6_ETL_UserSessionToSnowflake.py took 0.094 seconds

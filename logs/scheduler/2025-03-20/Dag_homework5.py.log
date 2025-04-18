@@ -1,0 +1,49 @@
+[2025-03-20T01:42:14.367+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:42:14.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Dag_homework5.py for tasks to queue
+[2025-03-20T01:42:14.379+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:14.378+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:42:14.393+0000] {processor.py:925} INFO - DAG(s) 'Hw5_Dag_Stock' retrieved from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:42:14.429+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:14.428+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:42:14.464+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:14.464+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw5_Dag_Stock to 2025-03-18 02:30:00+00:00, run_after=2025-03-19 02:30:00+00:00
+[2025-03-20T01:42:14.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Dag_homework5.py took 0.134 seconds
+[2025-03-20T01:42:44.919+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:42:44.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Dag_homework5.py for tasks to queue
+[2025-03-20T01:42:44.922+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:44.922+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:42:44.927+0000] {processor.py:925} INFO - DAG(s) 'Hw5_Dag_Stock' retrieved from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:42:44.938+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:44.938+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:42:44.946+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:42:44.946+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw5_Dag_Stock to 2025-03-18 02:30:00+00:00, run_after=2025-03-19 02:30:00+00:00
+[2025-03-20T01:42:44.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Dag_homework5.py took 0.036 seconds
+[2025-03-20T01:43:16.022+0000] {processor.py:186} INFO - Started process (PID=335) to work on /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:43:16.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Dag_homework5.py for tasks to queue
+[2025-03-20T01:43:16.024+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:16.024+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:43:16.029+0000] {processor.py:925} INFO - DAG(s) 'Hw5_Dag_Stock' retrieved from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:43:16.042+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:16.042+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:43:16.052+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:16.052+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw5_Dag_Stock to 2025-03-18 02:30:00+00:00, run_after=2025-03-19 02:30:00+00:00
+[2025-03-20T01:43:16.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Dag_homework5.py took 0.042 seconds
+[2025-03-20T01:43:46.865+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:43:46.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Dag_homework5.py for tasks to queue
+[2025-03-20T01:43:46.867+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:46.867+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:43:46.872+0000] {processor.py:925} INFO - DAG(s) 'Hw5_Dag_Stock' retrieved from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:43:46.883+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:46.883+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:43:46.893+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:43:46.893+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw5_Dag_Stock to 2025-03-18 02:30:00+00:00, run_after=2025-03-19 02:30:00+00:00
+[2025-03-20T01:43:46.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Dag_homework5.py took 0.037 seconds
+[2025-03-20T01:44:17.887+0000] {processor.py:186} INFO - Started process (PID=402) to work on /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:44:17.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Dag_homework5.py for tasks to queue
+[2025-03-20T01:44:17.888+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:17.888+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:44:17.893+0000] {processor.py:925} INFO - DAG(s) 'Hw5_Dag_Stock' retrieved from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:44:17.904+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:17.904+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:44:17.912+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:17.912+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw5_Dag_Stock to 2025-03-18 02:30:00+00:00, run_after=2025-03-19 02:30:00+00:00
+[2025-03-20T01:44:17.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Dag_homework5.py took 0.034 seconds
+[2025-03-20T01:44:48.965+0000] {processor.py:186} INFO - Started process (PID=448) to work on /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:44:48.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Dag_homework5.py for tasks to queue
+[2025-03-20T01:44:48.966+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:48.966+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:44:48.971+0000] {processor.py:925} INFO - DAG(s) 'Hw5_Dag_Stock' retrieved from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:44:48.982+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:48.982+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:44:48.991+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:44:48.991+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw5_Dag_Stock to 2025-03-18 02:30:00+00:00, run_after=2025-03-19 02:30:00+00:00
+[2025-03-20T01:44:48.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Dag_homework5.py took 0.035 seconds
+[2025-03-20T01:45:19.935+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:45:19.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Dag_homework5.py for tasks to queue
+[2025-03-20T01:45:19.937+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:45:19.937+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:45:19.942+0000] {processor.py:925} INFO - DAG(s) 'Hw5_Dag_Stock' retrieved from /opt/airflow/dags/Dag_homework5.py
+[2025-03-20T01:45:19.954+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:45:19.954+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-20T01:45:19.963+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:45:19.963+0000] {dag.py:4156} INFO - Setting next_dagrun for Hw5_Dag_Stock to 2025-03-18 02:30:00+00:00, run_after=2025-03-19 02:30:00+00:00
+[2025-03-20T01:45:19.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Dag_homework5.py took 0.037 seconds

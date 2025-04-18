@@ -1,0 +1,209 @@
+[2025-03-29T07:15:55.362+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:15:55.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T07:15:55.365+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:15:55.365+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:15:55.522+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:15:55.522+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T07:15:55.523+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:15:55.523+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T07:15:55.523+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:15:55.523+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T07:15:55.524+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:15:55.524+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T07:15:56.705+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:15:56.828+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:15:56.828+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T07:15:56.856+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:15:56.856+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T07:15:56.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 1.521 seconds
+[2025-03-29T07:16:27.663+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:16:27.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T07:16:27.666+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:27.666+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:16:27.768+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:27.768+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T07:16:27.768+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:27.768+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T07:16:27.768+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:27.768+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T07:16:27.769+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:27.769+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T07:16:28.166+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:16:28.249+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:28.248+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T07:16:28.264+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:28.263+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T07:16:28.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.621 seconds
+[2025-03-29T07:16:58.921+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:16:58.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T07:16:58.925+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:58.924+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:16:59.008+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:59.008+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T07:16:59.009+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:59.009+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T07:16:59.009+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:59.009+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T07:16:59.009+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:59.009+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T07:16:59.314+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:16:59.375+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:59.374+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T07:16:59.392+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:16:59.391+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T07:16:59.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.491 seconds
+[2025-03-29T07:17:29.978+0000] {processor.py:186} INFO - Started process (PID=392) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:17:29.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T07:17:29.984+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:17:29.984+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:17:30.062+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:17:30.062+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T07:17:30.063+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:17:30.063+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T07:17:30.063+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:17:30.063+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T07:17:30.063+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:17:30.063+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T07:17:30.454+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:17:30.518+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:17:30.518+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T07:17:30.530+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:17:30.530+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T07:17:30.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.570 seconds
+[2025-03-29T07:18:01.315+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:18:01.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T07:18:01.334+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:18:01.328+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:18:01.548+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:18:01.548+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T07:18:01.548+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:18:01.548+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T07:18:01.549+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:18:01.549+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T07:18:01.549+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:18:01.549+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T07:18:01.921+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T07:18:02.021+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:18:02.021+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T07:18:02.046+0000] {logging_mixin.py:190} INFO - [2025-03-29T07:18:02.046+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T07:18:02.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.804 seconds
+[2025-03-29T08:39:55.303+0000] {processor.py:186} INFO - Started process (PID=462) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T08:39:55.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T08:39:55.304+0000] {logging_mixin.py:190} INFO - [2025-03-29T08:39:55.304+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T08:39:55.385+0000] {logging_mixin.py:190} INFO - [2025-03-29T08:39:55.385+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T08:39:55.385+0000] {logging_mixin.py:190} INFO - [2025-03-29T08:39:55.385+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T08:39:55.386+0000] {logging_mixin.py:190} INFO - [2025-03-29T08:39:55.386+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T08:39:55.386+0000] {logging_mixin.py:190} INFO - [2025-03-29T08:39:55.386+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T08:39:55.794+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T08:39:55.856+0000] {logging_mixin.py:190} INFO - [2025-03-29T08:39:55.856+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T08:39:55.870+0000] {logging_mixin.py:190} INFO - [2025-03-29T08:39:55.870+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T08:39:55.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.582 seconds
+[2025-03-29T09:50:43.574+0000] {processor.py:186} INFO - Started process (PID=498) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T09:50:43.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T09:50:43.577+0000] {logging_mixin.py:190} INFO - [2025-03-29T09:50:43.577+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T09:50:43.655+0000] {logging_mixin.py:190} INFO - [2025-03-29T09:50:43.655+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T09:50:43.655+0000] {logging_mixin.py:190} INFO - [2025-03-29T09:50:43.655+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T09:50:43.656+0000] {logging_mixin.py:190} INFO - [2025-03-29T09:50:43.656+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T09:50:43.656+0000] {logging_mixin.py:190} INFO - [2025-03-29T09:50:43.656+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T09:50:44.120+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T09:50:44.188+0000] {logging_mixin.py:190} INFO - [2025-03-29T09:50:44.188+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T09:50:44.204+0000] {logging_mixin.py:190} INFO - [2025-03-29T09:50:44.204+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T09:50:44.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.643 seconds
+[2025-03-29T11:27:12.038+0000] {processor.py:186} INFO - Started process (PID=534) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T11:27:12.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T11:27:12.041+0000] {logging_mixin.py:190} INFO - [2025-03-29T11:27:12.041+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T11:27:12.125+0000] {logging_mixin.py:190} INFO - [2025-03-29T11:27:12.124+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T11:27:12.125+0000] {logging_mixin.py:190} INFO - [2025-03-29T11:27:12.125+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T11:27:12.125+0000] {logging_mixin.py:190} INFO - [2025-03-29T11:27:12.125+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T11:27:12.125+0000] {logging_mixin.py:190} INFO - [2025-03-29T11:27:12.125+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T11:27:12.509+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T11:27:12.560+0000] {logging_mixin.py:190} INFO - [2025-03-29T11:27:12.560+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T11:27:12.571+0000] {logging_mixin.py:190} INFO - [2025-03-29T11:27:12.571+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T11:27:12.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.542 seconds
+[2025-03-29T12:51:21.016+0000] {processor.py:186} INFO - Started process (PID=570) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T12:51:21.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T12:51:21.018+0000] {logging_mixin.py:190} INFO - [2025-03-29T12:51:21.018+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T12:51:21.098+0000] {logging_mixin.py:190} INFO - [2025-03-29T12:51:21.097+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T12:51:21.098+0000] {logging_mixin.py:190} INFO - [2025-03-29T12:51:21.098+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T12:51:21.099+0000] {logging_mixin.py:190} INFO - [2025-03-29T12:51:21.098+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T12:51:21.099+0000] {logging_mixin.py:190} INFO - [2025-03-29T12:51:21.099+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T12:51:21.595+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T12:51:21.657+0000] {logging_mixin.py:190} INFO - [2025-03-29T12:51:21.656+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T12:51:21.667+0000] {logging_mixin.py:190} INFO - [2025-03-29T12:51:21.667+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T12:51:21.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.666 seconds
+[2025-03-29T13:34:07.990+0000] {processor.py:186} INFO - Started process (PID=606) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T13:34:07.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T13:34:07.994+0000] {logging_mixin.py:190} INFO - [2025-03-29T13:34:07.994+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T13:34:08.085+0000] {logging_mixin.py:190} INFO - [2025-03-29T13:34:08.085+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T13:34:08.085+0000] {logging_mixin.py:190} INFO - [2025-03-29T13:34:08.085+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T13:34:08.086+0000] {logging_mixin.py:190} INFO - [2025-03-29T13:34:08.085+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T13:34:08.086+0000] {logging_mixin.py:190} INFO - [2025-03-29T13:34:08.086+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T13:34:09.151+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T13:34:09.190+0000] {logging_mixin.py:190} INFO - [2025-03-29T13:34:09.190+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T13:34:09.198+0000] {logging_mixin.py:190} INFO - [2025-03-29T13:34:09.198+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T13:34:09.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 1.218 seconds
+[2025-03-29T15:13:00.785+0000] {processor.py:186} INFO - Started process (PID=642) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T15:13:00.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T15:13:00.787+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:13:00.787+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T15:13:00.866+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:13:00.866+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T15:13:00.866+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:13:00.866+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T15:13:00.867+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:13:00.867+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T15:13:00.867+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:13:00.867+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T15:13:01.599+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T15:13:01.643+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:13:01.643+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T15:13:01.651+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:13:01.651+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T15:13:01.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.875 seconds
+[2025-03-29T15:52:09.505+0000] {processor.py:186} INFO - Started process (PID=678) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T15:52:09.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T15:52:09.511+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:52:09.511+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T15:52:09.639+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:52:09.639+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T15:52:09.640+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:52:09.640+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T15:52:09.641+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:52:09.641+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T15:52:09.641+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:52:09.641+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T15:52:10.139+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T15:52:10.226+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:52:10.225+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T15:52:10.257+0000] {logging_mixin.py:190} INFO - [2025-03-29T15:52:10.257+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T15:52:10.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.769 seconds
+[2025-03-29T17:07:41.198+0000] {processor.py:186} INFO - Started process (PID=714) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T17:07:41.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T17:07:41.201+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:07:41.201+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T17:07:41.279+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:07:41.278+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T17:07:41.279+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:07:41.279+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T17:07:41.279+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:07:41.279+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T17:07:41.279+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:07:41.279+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T17:07:41.711+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T17:07:41.775+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:07:41.775+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T17:07:41.787+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:07:41.787+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T17:07:41.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.606 seconds
+[2025-03-29T18:21:18.710+0000] {processor.py:186} INFO - Started process (PID=750) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T18:21:18.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T18:21:18.712+0000] {logging_mixin.py:190} INFO - [2025-03-29T18:21:18.712+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T18:21:18.787+0000] {logging_mixin.py:190} INFO - [2025-03-29T18:21:18.786+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T18:21:18.787+0000] {logging_mixin.py:190} INFO - [2025-03-29T18:21:18.787+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T18:21:18.787+0000] {logging_mixin.py:190} INFO - [2025-03-29T18:21:18.787+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T18:21:18.787+0000] {logging_mixin.py:190} INFO - [2025-03-29T18:21:18.787+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T18:21:19.241+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T18:21:19.306+0000] {logging_mixin.py:190} INFO - [2025-03-29T18:21:19.306+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T18:21:19.315+0000] {logging_mixin.py:190} INFO - [2025-03-29T18:21:19.315+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T18:21:19.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.618 seconds
+[2025-03-29T19:55:15.678+0000] {processor.py:186} INFO - Started process (PID=786) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T19:55:15.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T19:55:15.681+0000] {logging_mixin.py:190} INFO - [2025-03-29T19:55:15.681+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T19:55:15.771+0000] {logging_mixin.py:190} INFO - [2025-03-29T19:55:15.771+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T19:55:15.771+0000] {logging_mixin.py:190} INFO - [2025-03-29T19:55:15.771+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T19:55:15.771+0000] {logging_mixin.py:190} INFO - [2025-03-29T19:55:15.771+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T19:55:15.772+0000] {logging_mixin.py:190} INFO - [2025-03-29T19:55:15.772+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T19:55:16.216+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T19:55:16.273+0000] {logging_mixin.py:190} INFO - [2025-03-29T19:55:16.272+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T19:55:16.282+0000] {logging_mixin.py:190} INFO - [2025-03-29T19:55:16.282+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T19:55:16.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.619 seconds
+[2025-03-29T20:58:57.597+0000] {processor.py:186} INFO - Started process (PID=824) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T20:58:57.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T20:58:57.599+0000] {logging_mixin.py:190} INFO - [2025-03-29T20:58:57.599+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T20:58:57.661+0000] {logging_mixin.py:190} INFO - [2025-03-29T20:58:57.660+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T20:58:57.661+0000] {logging_mixin.py:190} INFO - [2025-03-29T20:58:57.661+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T20:58:57.662+0000] {logging_mixin.py:190} INFO - [2025-03-29T20:58:57.662+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T20:58:57.662+0000] {logging_mixin.py:190} INFO - [2025-03-29T20:58:57.662+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T20:58:58.140+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T20:58:58.204+0000] {logging_mixin.py:190} INFO - [2025-03-29T20:58:58.204+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T20:58:58.215+0000] {logging_mixin.py:190} INFO - [2025-03-29T20:58:58.215+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T20:58:58.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.628 seconds
+[2025-03-29T21:57:39.150+0000] {processor.py:186} INFO - Started process (PID=860) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T21:57:39.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T21:57:39.152+0000] {logging_mixin.py:190} INFO - [2025-03-29T21:57:39.152+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T21:57:39.229+0000] {logging_mixin.py:190} INFO - [2025-03-29T21:57:39.229+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T21:57:39.229+0000] {logging_mixin.py:190} INFO - [2025-03-29T21:57:39.229+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T21:57:39.230+0000] {logging_mixin.py:190} INFO - [2025-03-29T21:57:39.230+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T21:57:39.230+0000] {logging_mixin.py:190} INFO - [2025-03-29T21:57:39.230+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T21:57:39.753+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T21:57:39.828+0000] {logging_mixin.py:190} INFO - [2025-03-29T21:57:39.828+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T21:57:39.839+0000] {logging_mixin.py:190} INFO - [2025-03-29T21:57:39.839+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T21:57:39.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.703 seconds
+[2025-03-29T22:43:12.157+0000] {processor.py:186} INFO - Started process (PID=894) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T22:43:12.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T22:43:12.160+0000] {logging_mixin.py:190} INFO - [2025-03-29T22:43:12.160+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T22:43:12.250+0000] {logging_mixin.py:190} INFO - [2025-03-29T22:43:12.250+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T22:43:12.251+0000] {logging_mixin.py:190} INFO - [2025-03-29T22:43:12.250+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T22:43:12.251+0000] {logging_mixin.py:190} INFO - [2025-03-29T22:43:12.251+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T22:43:12.251+0000] {logging_mixin.py:190} INFO - [2025-03-29T22:43:12.251+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T22:43:13.739+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T22:43:13.831+0000] {logging_mixin.py:190} INFO - [2025-03-29T22:43:13.831+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T22:43:13.849+0000] {logging_mixin.py:190} INFO - [2025-03-29T22:43:13.849+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T22:43:13.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 1.716 seconds
+[2025-03-29T23:58:31.382+0000] {processor.py:186} INFO - Started process (PID=930) to work on /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T23:58:31.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab1_ETL.py for tasks to queue
+[2025-03-29T23:58:31.384+0000] {logging_mixin.py:190} INFO - [2025-03-29T23:58:31.384+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T23:58:31.468+0000] {logging_mixin.py:190} INFO - [2025-03-29T23:58:31.467+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn_lemur'
+[2025-03-29T23:58:31.468+0000] {logging_mixin.py:190} INFO - [2025-03-29T23:58:31.468+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-29T23:58:31.468+0000] {logging_mixin.py:190} INFO - [2025-03-29T23:58:31.468+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-29T23:58:31.468+0000] {logging_mixin.py:190} INFO - [2025-03-29T23:58:31.468+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-29T23:58:32.006+0000] {processor.py:925} INFO - DAG(s) 'lab1StockETL' retrieved from /opt/airflow/dags/lab1_ETL.py
+[2025-03-29T23:58:32.056+0000] {logging_mixin.py:190} INFO - [2025-03-29T23:58:32.056+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-29T23:58:32.066+0000] {logging_mixin.py:190} INFO - [2025-03-29T23:58:32.066+0000] {dag.py:4156} INFO - Setting next_dagrun for lab1StockETL to 2025-03-28 02:30:00+00:00, run_after=2025-03-29 02:30:00+00:00
+[2025-03-29T23:58:32.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab1_ETL.py took 0.698 seconds
