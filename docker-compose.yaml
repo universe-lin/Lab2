@@ -195,3 +195,4 @@ services:
 
 volumes:
   postgres-db-volume:
+    driver: local
