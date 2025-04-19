@@ -8,34 +8,71 @@ moving_averages AS (
         date,
         close,
         AVG(close) OVER (
-            PARTITION BY ticker ORDER BY date
+            PARTITION BY ticker
+            ORDER BY date
             ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
         ) AS ma_7,
         AVG(close) OVER (
-            PARTITION BY ticker ORDER BY date
+            PARTITION BY ticker
+            ORDER BY date
             ROWS BETWEEN 13 PRECEDING AND CURRENT ROW
         ) AS ma_14,
         LAG(close) OVER (
-            PARTITION BY ticker ORDER BY date
+            PARTITION BY ticker
+            ORDER BY date
         ) AS previous_close
     FROM base
 ),
 
-indicators AS (
+price_changes AS (
     SELECT
-        *,
-        CASE 
-            WHEN previous_close IS NULL THEN NULL
-            ELSE 100 - (100 / (1 + ((close - previous_close) / NULLIF(previous_close, 0))))
-        END AS rsi,
-        (close - previous_close) AS momentum
+        ticker,
+        date,
+        close,
+        ma_7,
+        ma_14,
+        previous_close,
+        close - previous_close AS momentum,
+        CASE
+            WHEN close - previous_close > 0 THEN close - previous_close
+            ELSE 0
+        END AS gain,
+        CASE
+            WHEN close - previous_close < 0 THEN ABS(close - previous_close)
+            ELSE 0
+        END AS loss
     FROM moving_averages
+),
+
+rsi_calc AS (
+    SELECT
+        ticker,
+        date,
+        close,
+        ma_7,
+        ma_14,
+        momentum,
+        100 - (100 / (1 + (
+            AVG(gain) OVER (
+                PARTITION BY ticker
+                ORDER BY date
+                ROWS BETWEEN 13 PRECEDING AND CURRENT ROW
+            ) / NULLIF(
+                AVG(loss) OVER (
+                    PARTITION BY ticker
+                    ORDER BY date
+                    ROWS BETWEEN 13 PRECEDING AND CURRENT ROW
+                ), 0)
+        ))) AS rsi_14
+    FROM price_changes
 )
 
-SELECT *
-FROM (
-    SELECT *,
-        ROW_NUMBER() OVER (PARTITION BY ticker, date ORDER BY date) AS row_num
-    FROM indicators
-)
-QUALIFY row_num = 1
+SELECT
+    ticker,
+    date,
+    close,
+    ma_7,
+    ma_14,
+    momentum,
+    rsi_14
+FROM rsi_calc
