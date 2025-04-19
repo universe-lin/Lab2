@@ -5,7 +5,7 @@
     target_schema='snapshot',
     unique_key='ticker || \'-\' || date',
     strategy='check',
-    check_cols=['ma_7', 'ma_14', 'rsi', 'momentum']
+    check_cols=['ma_7', 'ma_14', 'rsi_14', 'momentum']
   )
 }}
 
