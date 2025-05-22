@@ -18,7 +18,7 @@ with DAG(
     "StockELT_dbt",
     start_date=datetime(2025, 3, 19),
     description="An Airflow DAG to invoke dbt runs using a BashOperator",
-    schedule=None,
+    schedule="30 2 * * *",
     catchup=False,
     default_args={
         "env": {
@@ -33,6 +33,19 @@ with DAG(
         }
     },
 ) as dag:
+
+    wait_for_etl = ExternalTaskSensor(
+        task_id="wait_for_lab1_etl",
+        external_dag_id="lab1StockETL",
+        external_task_id=None,            # monitor whole DAG completion
+        allowed_states=["success"],
+        failed_states=["failed", "skipped"],
+        poke_interval=300,                # check every 5 min
+        timeout=60 * 60 * 3,              # give up after 3 hours
+        mode="reschedule",
+    )
+
+    
     dbt_run = BashOperator(
         task_id="dbt_run",
         bash_command=f"/home/airflow/.local/bin/dbt run --profiles-dir {DBT_PROJECT_DIR} --project-dir {DBT_PROJECT_DIR}",
@@ -53,4 +66,4 @@ with DAG(
     #    bash_command='echo "The value of AA is: $DBT_ACCOUNT,$DBT_ROLE,$DBT_DATABASE,$DBT_WAREHOUSE,$DBT_USER,$DBT_TYPE,$DBT_SCHEMA"'
     # )
 
-    dbt_run >> dbt_test >> dbt_snapshot
+    wait_for_etl >> dbt_run >> dbt_test >> dbt_snapshot
